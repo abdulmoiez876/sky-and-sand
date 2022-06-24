@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sky-and-sand/static/css/main.9a276881.css",
+    "main.js": "/sky-and-sand/static/js/main.ce83ba0c.js",
+    "static/media/hero.png": "/sky-and-sand/static/media/hero.decd6e523fe133c3c563.png",
+    "static/media/logo.png": "/sky-and-sand/static/media/logo.42d3c9442fff95d161f6.png",
+    "index.html": "/sky-and-sand/index.html",
+    "main.9a276881.css.map": "/sky-and-sand/static/css/main.9a276881.css.map",
+    "main.ce83ba0c.js.map": "/sky-and-sand/static/js/main.ce83ba0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a276881.css",
+    "static/js/main.ce83ba0c.js"
+  ]
+}
