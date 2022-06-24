@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: rgb(134, 217, 223);
+}
+
+.list {
+    display: flex;
+    text-align: center;
+    padding-left: 6rem;
+}
+
+.copyright {
+    font-size: 1.4rem;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}

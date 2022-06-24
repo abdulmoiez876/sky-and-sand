@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.textArea {
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 500px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.close {
+    position: relative;
+    left: 16rem;
+    width: 100px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.submit {
+    position: relative;
+    /* left: 16rem; */
+    width: 100px;
+    cursor: pointer;
+    padding: 10px;
+}

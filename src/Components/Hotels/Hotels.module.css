@@ -1,0 +1,53 @@
+.hotelContainer {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-grow: 2;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hotelContainer:hover {
+    transform: translateX(4px) translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hotelsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(134, 217, 223);
+    border: none;
+    border-radius: 10px;
+}
+
+.img {
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.sectionBreaker {
+    background-color: rgb(134, 217, 223);
+    border-radius: 2rem;
+}
+
+.h2 {
+    padding: 10px;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+}

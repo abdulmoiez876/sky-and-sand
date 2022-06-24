@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "contact": "(051) 111 133 133",
+        "name": "Serena Hotel",
+        "price_per_night": "$300",
+        "ref": "https://www.serenahotels.com"
+
+    }
+]

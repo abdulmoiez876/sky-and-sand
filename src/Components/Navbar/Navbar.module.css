@@ -1,0 +1,96 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    color: rgb(134, 217, 223);
+}
+
+.brand .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    padding: 0;
+    margin-right: 100px;
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(134, 217, 223);
+    font-size: 1.2rem;
+}
+
+.dot {
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    height: 2px;
+    background: rgb(20, 166, 177);
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateX(-130px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.ul :nth-child(1):hover~.dot {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+}
+
+.ul :nth-child(2):hover~.dot {
+    opacity: 1;
+    transform: translateX(-65px);
+    transition: all 0.4s ease-in-out;
+}
+
+.ul :nth-child(3):hover~.dot {
+    opacity: 1;
+    transform: translateX(25px);
+    transition: all 0.4s ease-in-out;
+}
+
+.ul :nth-child(4):hover~.dot {
+    opacity: 1;
+    transform: translateX(120px);
+    transition: all 0.4s ease-in-out;
+}
+
+.a:hover {
+    color: rgb(20, 166, 177);
+    transition: all 1s ease-out;
+}
+
+.connections {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.connections button {
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(27, 192, 204);
+}
+
+.connections button:hover {
+    background-color: rgb(20, 166, 177);
+    transition: all 0.4s ease-in-out;
+}
+
+.logo {
+    height: 3rem;
+}
